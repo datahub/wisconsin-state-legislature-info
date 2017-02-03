@@ -18,14 +18,15 @@ $("[id^=district]").each(function(index, person){
 	legislatureInfo.push({
 		firstName: firstName,
 		lastName: lastName,
-		image: image,
-		website: website,
 		party: party,
+		title: title,
 		district: district,
-		capitolAddress: capitolAddress,
 		phoneOne: phoneOne,
 		phoneTwo: phoneTwo,
 		email: email,
+		image: image,
+		website: website,
+		capitolAddress: capitolAddress,
 		votingAddress: votingAddress,
 		staff: staff
 	});
